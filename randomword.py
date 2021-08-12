@@ -1,6 +1,5 @@
 import random
-from hangman_word import *
-print(word)
+
 life=3
 lost=False
 word_list=["apple","bananna","orange"]
