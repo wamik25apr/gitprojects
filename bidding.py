@@ -1,4 +1,5 @@
 import os
+from art import logo
 def screen_clear():
    # for mac and linux(here, os.name is 'posix')
    if os.name == 'posix':
@@ -8,6 +9,7 @@ def screen_clear():
       _ = os.system('cls')
 a={}
 next_bidder="yes"
+print(logo)
 print("Welcome to the secret auction program")
 while next_bidder=="yes":
     name=input("What is your name? ")
@@ -15,6 +17,7 @@ while next_bidder=="yes":
     a[name]=bid
     next_bidder=input("are there any other bidders? ")
     screen_clear()
+    print(logo)
     
 b=list(a.values())
 b.sort()
