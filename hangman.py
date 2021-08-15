@@ -6,7 +6,7 @@ print(logo)
 life = 6
 lost = False
 word = random.choice(word_list)
-print(word)
+
 print("Guess the word")
 # print(word)
 word_len = len(word)
