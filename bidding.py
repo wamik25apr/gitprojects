@@ -18,7 +18,7 @@ while next_bidder=="yes":
     next_bidder=input("are there any other bidders? ")
     screen_clear()
     print(logo)
-    
+ 
 b=list(a.values())
 b.sort()
 highest_bid=b[-1]
